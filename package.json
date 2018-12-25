@@ -1,0 +1,30 @@
+{
+  "name": "http-check",
+  "version": "0.0.1-alpha",
+  "description": "HTTP check-alert functionality",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonmitsev/http-check.git"
+  },
+  "keywords": [
+    "ping",
+    "http-ping"
+  ],
+  "author": "Anton Mitsev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonmitsev/http-check/issues"
+  },
+  "homepage": "https://github.com/antonmitsev/http-check#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
