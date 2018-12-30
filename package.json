@@ -1,5 +1,5 @@
 {
-  "name": "http-check",
+  "name": "@antonmitsev/http-check",
   "version": "0.0.1-alpha",
   "description": "HTTP check-alert functionality",
   "main": "index.js",
