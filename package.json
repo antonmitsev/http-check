@@ -1,13 +1,13 @@
 {
   "name": "@antonmitsev/http-check",
-  "version": "0.0.1-alpha",
+  "version": "0.1.0-alpha",
   "description": "HTTP check-alert functionality",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 20000"
   },
   "repository": {
     "type": "git",
