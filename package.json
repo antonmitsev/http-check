@@ -1,6 +1,6 @@
 {
   "name": "@antonmitsev/http-check",
-  "version": "0.1.0-alpha",
+  "version": "0.2.0-alpha",
   "description": "HTTP check-alert functionality",
   "main": "index.js",
   "directories": {
@@ -26,5 +26,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "nodemailer": "^5.0.0"
   }
 }

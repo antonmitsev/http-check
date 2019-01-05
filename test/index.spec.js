@@ -1,5 +1,6 @@
 const expect = require('chai').expect;
-const checker = require('../index.js');
+const checker = require('../index.js').checker;
+const sendMail = require('../index.js').sendMail;
 
 describe('checker.httpCheck()', function () {
   it('should make http request and report status >= 0 (site reachable)', function (done) {
@@ -20,5 +21,16 @@ describe('checker.httpCheck()', function () {
       done();
     });
   });
+});
 
+describe('helper.sendMail()', function () {
+  it('Should return FALSE on empty input variables', () => {
+    expect(sendMail()).to.be.false;
+    expect(sendMail('some')).to.be.false;
+  });
+
+  it('Should send e-mail', () => {
+    // TODO enchance sending to catch exceptions on sending
+    expect(sendMail('some subject ...', '<p>Html text</p>', 'Plain text')).to.be.true;
+  })
 });
